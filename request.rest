@@ -1,0 +1,21 @@
+GET http://localhost:4000/users
+
+###
+
+POST http://localhost:4000/users
+Content-Type: application/json
+
+{
+  "name":"gaurav",
+  "password":"password"
+}
+
+###
+
+POST http://localhost:4000/users/login
+Content-Type: application/json
+
+{
+  "name":"gaurav",
+  "password":"password"
+}
